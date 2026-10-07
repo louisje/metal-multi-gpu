@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+autoreconf -fi
+printf '%s\n' 'Generated configure, config.h.in, and Makefile.in files.'
